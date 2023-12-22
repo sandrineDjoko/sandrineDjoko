@@ -28,7 +28,7 @@ cv2.setMouseCallback('Dessiner avec Fond Blanc', draw_on_white)
 while True:
     cv2.imshow('Dessiner avec Fond Blanc', img)
 
-    # Attendre que l'utilisateur appuie sur la touche 'Esc' pour quitter
+    # Attendre que l'utilisateur appuie sur la touche 'Esc' pour quitt
     k = cv2.waitKey(1) & 0xFF
     if k == 27:
         break
